@@ -31,11 +31,18 @@ fieldset {
     border-color: #d3d3d3
 }
 
-@media only screen and (max-width:37.5em) {
+@media only screen and (max-width:27.5em) {
     label {
         display: block;
+        text-align: left;
     }
     input {
         width: 100%;
+    }
+    textarea {
+        display: block;
+    }
+    #submit {
+        margin-left: 0px;
     }
 }
