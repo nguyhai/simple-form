@@ -11,3 +11,31 @@ footer {
     font-size: 0.8em;
     color: #666666;
 }
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 120px;
+    text-align: right;
+}
+
+#submit {
+    display: block;
+    margin-left: 120px;
+}
+
+fieldset {
+    width: 350px;
+    border-style: solid;
+    border-color: #d3d3d3
+}
+
+@media only screen and (max-width:37.5em) {
+    label {
+        display: block;
+    }
+    input {
+        width: 100%;
+    }
+}
